@@ -366,9 +366,15 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 200px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+    }
+    .site-navigation li {
+        list-style-type: none;
+    }
+    .site-navigation a {
+        padding: 10px 15px;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -508,6 +514,11 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+
+    display: block;
+    width: 50%;
+    padding: 6px 12px;
+    background-image: none;
 }
 
 .scrollToTop {
@@ -736,7 +747,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #162316!important;
 }
 
 .portfolio-thumb {
@@ -771,29 +782,29 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #1e1ca6;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #fff!important;
+    color: #162316!important;
 }
 
 .btn-atomic-tangerine {
-    background: #63563f;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #162316!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #162316!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #162316!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #162316!important;
 }
 
 .ltc-atomic-tangerine {
