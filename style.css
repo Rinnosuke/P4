@@ -1051,3 +1051,8 @@ h4 {
         text-align: center;
     }
 }
+
+.off-screen {
+    position: absolute;
+    left: -99999rem;
+ }
